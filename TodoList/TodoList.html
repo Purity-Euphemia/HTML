@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo List DOM</title>
+  <link rel="stylesheet" href="TodoList.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="page-banner">
+      <h1 class="title">TODO LIST</h1>
+      <p>Lists</p>
+      <input type="text" id="search" placeholder="Find tasks..." />
+    </div>
+
+    <div id="Add-lists">
+      <h2 class="title">All your tasks</h2>
+      <ul id="tasks"></ul>
+    </div>
+
+    <form id="add-tasks">
+      <input type="text" id="task-input" placeholder="Add task..." />
+      <button type="submit" id="add-task-button">Add</button>
+    </form>
+  </div>
+
+  <script src="apiTodoList.js"></script>
+</body>
+</html>

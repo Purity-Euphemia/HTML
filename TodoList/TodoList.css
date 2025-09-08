@@ -1,0 +1,120 @@
+body {
+  font-family: Tahoma;
+  color: purple;
+  letter-spacing: 1px;
+   background: url(./image/7eec8171-081a-41f2-82da-fbd231064e72.jfif) repeat;
+  background-position: 0 -140px;
+  background-size: auto;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 120px auto;
+  border-radius: 140px 40px;
+  box-shadow: 0px 30px 70px purple;
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+  background: white;
+}
+
+#page-banner {
+  background: pink;
+  padding: 10px 0;
+}
+
+#page-banner h1, #page-banner p {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#page-banner input {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#Add-lists {
+  margin: 30px;
+}
+
+#Add-lists ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#Add-lists li {
+  padding: 20px;
+  border-left: 5px solid #ddd;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Add-lists li:hover {
+  border-color: purple;
+}
+
+.delete {
+  background: purple;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.delete:hover {
+  background: pink;
+  color: purple;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+#add-tasks {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#add-tasks input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  width: 90%;
+}
+
+#add-tasks button {
+  border: 1px solid purple;
+  background: purple;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  color: white;
+  width: 30%;
+  border-left: 0;
+}
+
+#add-tasks button:hover {
+  background: pink;
+  color: purple;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
