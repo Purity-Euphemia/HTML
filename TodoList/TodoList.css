@@ -39,7 +39,7 @@ body {
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 #Add-lists {
@@ -58,6 +58,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 25px;
 }
 
 #Add-lists li:hover {
@@ -67,10 +68,11 @@ body {
 .delete {
   background: purple;
   padding: 6px 10px;
-  border-radius: 4px;
+  border-radius: 40px;
   cursor: pointer;
   color: white;
   border: none;
+  font-size: 25px;
 }
 
 .delete:hover {
@@ -92,7 +94,7 @@ body {
 #add-tasks input {
   padding: 10px;
   border: 1px solid #ccc;
-  font-size: 16px;
+  font-size: 25px;
   border-radius: 4px 0 0 4px;
   box-sizing: border-box;
   width: 90%;
@@ -117,4 +119,5 @@ body {
 
 input[type="checkbox"] {
   margin-right: 10px;
+  transform: scale(1.7);
 }
