@@ -10,7 +10,9 @@ body {
   background-size: auto;
   margin-top: 0;
   margin-left: 0;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+
 }
 .logo img{
     height: 190px;
@@ -51,6 +53,7 @@ ul a {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: -5%;
+    margin-bottom: 50px;
 }
 #search-section input {
     width: 300px;
@@ -85,9 +88,9 @@ img {
     cursor: pointer;
 }
 .productContainer {
+    margin-bottom: 100px;
     width: 100%;
     height: 500px;
-    /* background-color: lightgray; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -95,5 +98,5 @@ img {
 }
 .products{
     overflow: hidden;
-
+    width: 300px;
 }
